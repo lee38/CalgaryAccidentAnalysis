@@ -1,32 +1,24 @@
-# ENSF-592-Project-Part-1
+# Calgary Accident Analysis
 
-Project Objectives (Phase I)
-1.To gain experience with the design and development of a relatively larger software project
-2.To gain practical experience in OOP design and development, interacting with a data baseand GUI implementation.
-3.To gain the experience of real-world data analysis.4.To use engineering tools (python packages)  to design and analysing engineering problems
+## Part 1: City of Calgary Traffic GUI
+#### Designed a GUI application that manages traffic information from the City of Calgary. 
+##### Functionality
+- Read and write data to a mongoDB database
+- Display traffic records information
+- Ability to select type of information and corresponding year
+- Visualize the maxiumum traffic volume or accidents by year on a map of Calgary 
 
-Phase I (GUI and DataBase)
-The  purpose  of  the  first  phase  of  the  project  is  to  get  familiar  with  the  python Graphic User Interface (GUI) and use a database for keeping required data.In the first phase, you will write a GUI application that manages traffic information from  Calgary  city.  The  required  data  is  available  on  Calgary  city  website (https://data.calgary.ca/browse?sortBy=newest).
+## Part 2: Data Analysis 
+#### Analyzed Calgary Traffic Data to determine relationship between Features and Accidents
+- Weather Features: Snowfall, Temperature, Visibility 
+- Road Features: Average Speed Limit, Average Traffic Volume, Average Number of Traffic Cameras, Number of Traffic Signals, Number of Traffic Signs
 
-GUI
-The python GUI that you are developing must have the following functionalities: 
-    ●It should be able to read and write the traffic information from/to database and keep it in the right data structure
-    ●It should be able to display the traffic records information on the computer screen. 
-    ●The user should be able to select type of information and corresponding year for doing analysis.●You should be able to load the calgary city map and you should be able to show the maximum traffic volume or accident based on the year on the map.
+### Notes
+- Part 2 analysis is contained in CalgaryTrafficAnalysis_Demo.ipynb. 
+- Jupyter notebooks are converted to static html when uploaded.  Interactive maps generated from folium will not display directly from Github. Please paste the Github repo link into nbviewer to view a fully interactive version
 
-Packages
-Here is the suggestion of some packages you can use for the project:
-    ●Database: Mongodb
-    ●GUI: tkinter
-    ●Drawing map: folium
+#### nbviewer: 
+https://nbviewer.org/
 
-You are free to use any other types of packages and modules for database, gui, and drawing map.
+#### Github Link: 
 
-Marking
-    ●Read and write to the database: 5 Marks
-    ●Sort the data and find the max value: 5 Marks
-    ●Analyzing data and drawing chart: 5 Marks
-    ●Map drawing and writing the map.html: 5 Marks
-    ●Project Demo: 5 Marks
-    ●Total Mark: 25 Marks
-    ●Due date: 23 July-2020
