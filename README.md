@@ -14,11 +14,11 @@
 - Road Features: Average Speed Limit, Average Traffic Volume, Average Number of Traffic Cameras, Number of Traffic Signals, Number of Traffic Signs
 
 ### Notes
+- Part 2 analysis is contained in CalgaryTrafficAnalysis_Demo.ipynb. 
 - Jupyter notebooks are converted to static html when uploaded.  Interactive maps generated from folium will not display directly from Github. Please paste the Github repo link into nbviewer to view a fully interactive version
 
 #### nbviewer: 
 https://nbviewer.org/
 
 #### Github Link: 
-https://github.com/lee38/Datascience_Project_CalgaryAccidentAnalysis/blob/main/Project_Phase2(DataAnalysis)/ENSF592_Demo.ipynb
 
