@@ -8,7 +8,7 @@
 - Ability to select type of information and corresponding year
 - Visualize the maxiumum traffic volume or accidents by year on a map of Calgary 
 
-## Part 2: Data Analysis 
+## Part 2: City of Calgary Accident Analysis 
 #### Analyzed Calgary Traffic Data to determine relationship between Features and Accidents
 - Weather Features: Snowfall, Temperature, Visibility 
 - Road Features: Average Speed Limit, Average Traffic Volume, Average Number of Traffic Cameras, Number of Traffic Signals, Number of Traffic Signs
